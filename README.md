@@ -1,2 +1,2 @@
-# 社区首页<a href="xiaozhouge.github.io/mysite1/first.html">
+# [社区首页](http://example.com/)
 
