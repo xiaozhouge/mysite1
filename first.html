@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="./css/first.css">
     <title>社区首页</title>
     <script>
-            document.getElementsByTagName('html')[0].style.fontSize=document.documentElement.clientWidth/10+'px';
-            console.log(document.documentElement.clientWidth)
+            window.onload=function(){
+                document.getElementsByTagName('html')[0].style.fontSize=document.documentElement.clientWidth/10+'px';
+                console.log(document.documentElement.clientWidth)
+            }
     </script>
 </head>
 <body>
