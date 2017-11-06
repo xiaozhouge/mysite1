@@ -1,0 +1,30 @@
+/* html{background: red} */
+*{margin: 0;padding: 0;font-family: 'Micro YaHei','sans-serif','宋体';}
+body{ max-width:640px; margin: 0 auto;}
+li{list-style: none}
+.icon_bar{width: 22px;height: 22px}
+.icon_sm{width: 13px;height: 13px}
+.gray{color: #656565}
+
+.bar{height: 48px;background:#f5f5f5;display: flex;padding: 0 4%;justify-content: space-between;align-items: center;border-bottom: 1px solid #e3e2e7}
+.bar>input{margin-right:12%;border: none;height:32px;width: 60%;border-radius: 3px;padding-left: 35px;background:#fff url('../img/icon/search.png') 6px 4px no-repeat;background-size: 24px 24px}
+.bar>div{width: 20%;display: flex;justify-content: space-between;position: relative}
+.bar>div>div{position: absolute;top: -5px;right: -5px;background: #f11716;border-radius: 50%;width: 16px;height: 16px;font-size: 14px;display: flex;align-items: center;justify-content: center;color: #fff}
+.nav{font-size:14px;height: 34px;border-bottom: 2px solid #f5f5f5;display: flex;padding: 0 4%;justify-content: space-between;align-items: center}
+.classify{display: flex;padding: 0 4%;justify-content: space-between;font-size: 14px;border-bottom: 10px solid #f5f5f5}
+.classify li{height: 81px;display: flex; flex-direction:column;justify-content: center;align-items: center}
+.classify img{width: 30px;height: 28px;margin-bottom: 10px}
+.people{display: flex;padding: 0 4%;justify-content: space-between;font-size: 14px;border-bottom: 10px solid #f5f5f5}
+.people li{height: 77px;display: flex; flex-direction:column;justify-content: center;align-items: center;padding-top: 15px}
+.people img{width: 37px;height: 37px;margin-bottom: 5px}
+.topic{}
+.topic>li{border-bottom: 2px solid #f5f5f5;display: flex;justify-content: flex-start;font-size:0px;padding-top: 11px;padding-left:8px;padding-right:17px;}
+.topic>li img{width: 82px;height: 68px;}
+.topic>li>div{margin-left: 10px;margin-bottom:10px;max-width: 385px}
+.topic>li>div>div{font-size: 13px;}
+.topic>li>div>div:first-child{margin-bottom: 2px}
+.topic>li>div>div:nth-child(3){display: flex;justify-content: flex-end;margin-top: 10px;}
+.topic>li>div>div:nth-child(3)>div{align-self: end;}
+.topic>li>div>div img{width: 14px;height: 13px;margin-right: 4px}
+.more{height: 67px;font-size: 14px;display: flex;justify-content: center;align-items: center}
+.more img{margin-right: 10px}
